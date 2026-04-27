@@ -90,7 +90,7 @@ model Product {
   diamondCount             Int?
   clarity                  String?
   purity                   String?
-  discountAllowed          Boolean?
+  discountAllowed          Float?
   costPrice                Float?
   customsDuty              Float?
   logisticsCosts           Float?

@@ -92,7 +92,7 @@ export async function createProduct(data: any) {
       diamondCount: data.diamondCount != null ? Number(data.diamondCount) : null,
       clarity: data.clarity ?? null,
       purity: data.purity ?? null,
-      discountAllowed: data.discountAllowed ?? null,
+      discountAllowed: data.discountAllowed != null ? Number(data.discountAllowed) : null,
       costPrice: data.costPrice != null ? Number(data.costPrice) : null,
       customsDuty: data.customsDuty != null ? Number(data.customsDuty) : null,
       logisticsCosts: data.logisticsCosts != null ? Number(data.logisticsCosts) : null,
@@ -119,7 +119,7 @@ export async function updateProduct(id: string, data: any) {
   if (data.diamondCount !== undefined) updateData.diamondCount = data.diamondCount != null ? Number(data.diamondCount) : null;
   if (data.clarity !== undefined) updateData.clarity = data.clarity;
   if (data.purity !== undefined) updateData.purity = data.purity;
-  if (data.discountAllowed !== undefined) updateData.discountAllowed = data.discountAllowed;
+  if (data.discountAllowed !== undefined) updateData.discountAllowed = data.discountAllowed != null ? Number(data.discountAllowed) : null;
   if (data.costPrice !== undefined) updateData.costPrice = data.costPrice != null ? Number(data.costPrice) : null;
   if (data.customsDuty !== undefined) updateData.customsDuty = data.customsDuty != null ? Number(data.customsDuty) : null;
   if (data.logisticsCosts !== undefined) updateData.logisticsCosts = data.logisticsCosts != null ? Number(data.logisticsCosts) : null;
