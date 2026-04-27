@@ -443,6 +443,8 @@ export default function CRMPage() {
   // Unit selector in lead form
   const [availableUnits, setAvailableUnits] = useState<any[]>([]);
   const [selectedUnitId, setSelectedUnitId] = useState<string>('');
+  const [leadProductSearch, setLeadProductSearch] = useState('');
+  const [leadProductDropdownOpen, setLeadProductDropdownOpen] = useState(false);
 
   // Admin sub-view
   const [adminSubView, setAdminSubView] = useState<'warehouse' | 'analytics'>('warehouse');
@@ -771,6 +773,8 @@ export default function CRMPage() {
     setShowCustomOccasion(false);
     setAvailableUnits([]);
     setSelectedUnitId('');
+    setLeadProductSearch('');
+    setLeadProductDropdownOpen(false);
   };
 
   const handleImageUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -2704,22 +2708,60 @@ export default function CRMPage() {
                          </div>
                       ))}
                    </div>
-                   <select className="luxury-input" value="" onChange={async e => {
-                      const p = products.find(prod => prod.id === e.target.value);
-                      if (p) {
-                         const newProds = [...(leadFormData.products || []), { productId: p.id, name: p.name, price: p.price }];
-                         setLeadFormData({ ...leadFormData, products: newProds, productId: p.id, product: p.name });
-                         // Load available units for this SKU
-                         try {
-                           const res = await fetch(`/api/crm/units?skuId=${p.id}&available=true`);
-                           const data = await res.json();
-                           if (data.success) setAvailableUnits(data.units);
-                         } catch {}
-                      }
-                   }}>
-                      <option value="">-- Добавить изделие из каталога --</option>
-                      {products.map(p => <option key={p.id} value={p.id}>{p.article} | {p.name} ({p.category}) - {p.price.toLocaleString()} ₸</option>)}
-                   </select>
+                   <div style={{ position: 'relative' }}>
+                     <input
+                       className="luxury-input"
+                       type="text"
+                       placeholder="🔍 Поиск изделия по названию, артикулу, категории..."
+                       value={leadProductSearch}
+                       onChange={e => { setLeadProductSearch(e.target.value); setLeadProductDropdownOpen(true); }}
+                       onFocus={() => setLeadProductDropdownOpen(true)}
+                       onBlur={() => setTimeout(() => setLeadProductDropdownOpen(false), 200)}
+                       autoComplete="off"
+                     />
+                     {leadProductDropdownOpen && (
+                       <div style={{
+                         position: 'absolute', top: '100%', left: 0, right: 0, zIndex: 1000,
+                         background: '#1a1a2e', border: '1px solid var(--gold)', borderRadius: '8px',
+                         maxHeight: '220px', overflowY: 'auto', boxShadow: '0 8px 24px rgba(0,0,0,0.4)',
+                         marginTop: '2px',
+                       }}>
+                         {(() => {
+                           const q = leadProductSearch.toLowerCase();
+                           const filtered = products.filter(p =>
+                             !q || p.name.toLowerCase().includes(q) || p.article.toLowerCase().includes(q) || p.category.toLowerCase().includes(q)
+                           ).slice(0, 50);
+                           if (filtered.length === 0) return (
+                             <div style={{ padding: '12px', color: '#9ca3af', fontSize: '0.78rem', textAlign: 'center' }}>Ничего не найдено</div>
+                           );
+                           return filtered.map(p => (
+                             <div
+                               key={p.id}
+                               onMouseDown={async () => {
+                                 const newProds = [...(leadFormData.products || []), { productId: p.id, name: p.name, price: p.price }];
+                                 setLeadFormData({ ...leadFormData, products: newProds, productId: p.id, product: p.name });
+                                 setLeadProductSearch('');
+                                 setLeadProductDropdownOpen(false);
+                                 try {
+                                   const res = await fetch(`/api/crm/units?skuId=${p.id}&available=true`);
+                                   const data = await res.json();
+                                   if (data.success) setAvailableUnits(data.units);
+                                 } catch {}
+                               }}
+                               style={{ padding: '8px 12px', cursor: 'pointer', fontSize: '0.78rem', borderBottom: '1px solid rgba(212,175,55,0.1)' }}
+                               onMouseEnter={e => (e.currentTarget.style.background = 'rgba(212,175,55,0.12)')}
+                               onMouseLeave={e => (e.currentTarget.style.background = 'transparent')}
+                             >
+                               <span style={{ color: 'var(--gold)', fontWeight: 600 }}>{p.article}</span>
+                               <span style={{ color: '#e0e0e0', marginLeft: '8px' }}>{p.name}</span>
+                               <span style={{ color: '#9ca3af', marginLeft: '6px' }}>({p.category})</span>
+                               <span style={{ float: 'right', color: 'var(--gold)' }}>{p.price.toLocaleString()} ₸</span>
+                             </div>
+                           ));
+                         })()}
+                       </div>
+                     )}
+                   </div>
 
                    {/* Unit selector — appears when SKU has physical units */}
                    {availableUnits.length > 0 && (
