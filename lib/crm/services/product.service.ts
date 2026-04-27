@@ -75,33 +75,33 @@ export async function getProducts(category?: string) {
 }
 
 export async function createProduct(data: any) {
-  const createData: Record<string, any> = {
-    name: data.name,
-    category: data.category,
-    article: data.article?.trim() || `ART-${Date.now()}`,
-    price: Number(data.price) || 0,
-    stock: Number(data.stock) || 0,
-    imageUrl: data.imageUrl || null,
-    description: data.description || null,
-    shortDescription: data.shortDescription || null,
-    // Extended fields
-    origin: data.origin ?? null,
-    caratWeight: data.caratWeight != null ? Number(data.caratWeight) : null,
-    color: data.color ?? null,
-    diamondCount: data.diamondCount != null ? Number(data.diamondCount) : null,
-    clarity: data.clarity ?? null,
-    purity: data.purity ?? null,
-    discountAllowed: data.discountAllowed ?? null,
-    costPrice: data.costPrice != null ? Number(data.costPrice) : null,
-    customsDuty: data.customsDuty != null ? Number(data.customsDuty) : null,
-    logisticsCosts: data.logisticsCosts != null ? Number(data.logisticsCosts) : null,
-    totalCostPrice: data.totalCostPrice != null ? Number(data.totalCostPrice) : null,
-    markupPercentage: data.markupPercentage != null ? Number(data.markupPercentage) : null,
-    managerCommissionPercent: data.managerCommissionPercent != null ? Number(data.managerCommissionPercent) : null,
-    images: Array.isArray(data.images) ? JSON.stringify(data.images) : (data.images ?? '[]'),
-  };
-
-  const created = await prisma.product.create({ data: createData });
+  const created = await prisma.product.create({
+    data: {
+      name: data.name,
+      category: data.category,
+      article: data.article?.trim() || `ART-${Date.now()}`,
+      price: Number(data.price) || 0,
+      stock: Number(data.stock) || 0,
+      imageUrl: data.imageUrl || null,
+      description: data.description || null,
+      shortDescription: data.shortDescription || null,
+      // Extended fields
+      origin: data.origin ?? null,
+      caratWeight: data.caratWeight != null ? Number(data.caratWeight) : null,
+      color: data.color ?? null,
+      diamondCount: data.diamondCount != null ? Number(data.diamondCount) : null,
+      clarity: data.clarity ?? null,
+      purity: data.purity ?? null,
+      discountAllowed: data.discountAllowed ?? null,
+      costPrice: data.costPrice != null ? Number(data.costPrice) : null,
+      customsDuty: data.customsDuty != null ? Number(data.customsDuty) : null,
+      logisticsCosts: data.logisticsCosts != null ? Number(data.logisticsCosts) : null,
+      totalCostPrice: data.totalCostPrice != null ? Number(data.totalCostPrice) : null,
+      markupPercentage: data.markupPercentage != null ? Number(data.markupPercentage) : null,
+      managerCommissionPercent: data.managerCommissionPercent != null ? Number(data.managerCommissionPercent) : null,
+      images: Array.isArray(data.images) ? JSON.stringify(data.images) : (data.images ?? '[]'),
+    },
+  });
   return { ...created, images: parseImages(created.images) };
 }
 
