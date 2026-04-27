@@ -1,0 +1,18 @@
+[
+  {
+    "managerId": "m1774455453017",
+    "type": "fixed_bonus",
+    "fixedSalary": 250000,
+    "bonusPercent": 10,
+    "monthlyPlan": 1500000,
+    "planBonusPercent": 10
+  },
+  {
+    "managerId": "m1",
+    "type": "bonus_only",
+    "fixedSalary": 250000,
+    "bonusPercent": 5,
+    "monthlyPlan": 1500000,
+    "planBonusPercent": 0
+  }
+]

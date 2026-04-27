@@ -1,0 +1,249 @@
+// prisma/schema.prisma
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Manager {
+  id          String   @id @default(uuid())
+  name        String
+  login       String   @unique
+  password    String?
+  role        String   @default("sales")
+  permissions String?  @default("{}")
+  phone       String?
+  hireDate    String?
+  branchId    String?
+  createdAt   DateTime @default(now())
+  
+  clients     Client[]
+  leads       Lead[]
+  accounting  AccountingEntry[]
+  auditLogs   AuditLog[]
+  salaryPlan  SalaryPlan?
+  salaryPayments SalaryPayment[]
+}
+
+model SalaryPlan {
+  id               String   @id @default(uuid())
+  managerId        String   @unique
+  manager          Manager  @relation(fields: [managerId], references: [id])
+  type             String   @default("fixed_bonus") // "fixed" | "commission" | "fixed_bonus"
+  fixedSalary      Float    @default(0)
+  bonusPercent     Float    @default(0)
+  monthlyPlan      Float    @default(0)
+  planBonusPercent Float    @default(0)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+}
+
+model SalaryPayment {
+  id          String   @id @default(uuid())
+  managerId   String
+  manager     Manager  @relation(fields: [managerId], references: [id])
+  type        String   // "advance" | "salary" | "bonus" | "sick_leave" | "vacation" | "penalty"
+  amount      Float
+  description String?
+  date        String   // YYYY-MM-DD
+  createdBy   String
+  createdAt   DateTime @default(now())
+}
+
+model Client {
+  id             String    @id @default(uuid())
+  name           String
+  phone          String    @unique
+  email          String?
+  birthday       String?   // ISO string or YYYY-MM-DD
+  anniversary    String?   // Marriage anniversary
+  totalSpent     Float     @default(0)
+  loyaltyStatus  String    @default("Pearl") // "Pearl" | "Emerald" | "Diamond"
+  notes          String?
+  managerId      String?
+  manager        Manager?  @relation(fields: [managerId], references: [id])
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+  
+  leads          Lead[]
+}
+
+model Product {
+  id               String   @id @default(uuid())
+  name             String
+  category         String
+  article          String   @unique
+  price            Float
+  stock            Int      @default(0)
+  imageUrl         String?
+  description      String?
+  shortDescription String?
+
+  // Extended fields (previously stored in /tmp overlay)
+  origin                   String?
+  caratWeight              Float?
+  color                    String?
+  diamondCount             Int?
+  clarity                  String?
+  purity                   String?
+  discountAllowed          Boolean?
+  costPrice                Float?
+  customsDuty              Float?
+  logisticsCosts           Float?
+  totalCostPrice           Float?
+  markupPercentage         Float?
+  managerCommissionPercent Float?
+  images                   String?  @default("[]") // JSON array of image URLs
+
+  createdAt        DateTime @default(now())
+  
+  leads            Lead[]
+}
+
+model Lead {
+  id               String   @id @default(uuid())
+  clientId         String?
+  client           Client?  @relation(fields: [clientId], references: [id])
+  name             String
+  phone            String
+  product          String
+  productId        String?
+  productRef       Product? @relation(fields: [productId], references: [id])
+  
+  status           String   @default("new")
+  source           String   @default("boutique")
+  managerId        String
+  manager          Manager  @relation(fields: [managerId], references: [id])
+  
+  paymentMethod    String?
+  paymentAmount    Float?
+  productPrice     Float?
+  discount         Float?   @default(0)
+  discountAmount   Float?   @default(0)
+  finalPrice       Float?
+  
+  occasion         String?
+  additionalInfo   String?
+  instagramAccount String?
+  fulfillmentMethod String   @default("pickup")
+  deliveryAddress  String?
+  deliveryDate     String?
+  deliveryDateTime String?
+  deliveryStatus   String?
+  courierName      String?
+  courierCarNumber String?
+  products         String?  @default("[]")
+  packagingOptions String?  @default("{}")
+  packagingPrice   Float?   @default(0)
+  unitId           String?
+
+  // Installment
+  isInstallment    Boolean  @default(false)
+  installments     String?  @default("[]")
+  installmentTotal Float?   @default(0)
+  installmentPlan  String?  @default("{}")
+
+  // WhatsApp
+  whatsappStatus      String?
+  whatsappConfirmedAt String?
+  whatsappConfirmedBy String?
+
+  // Communication log
+  communicationLog String?  @default("[]")
+
+  // Gift certificate
+  appliedCertificateId String?
+
+  // Branch
+  branchId         String?
+
+  createdAt        DateTime @default(now())
+
+  accounting       AccountingEntry[]
+  receipts         Receipt[]
+}
+
+model AccountingEntry {
+  id          String   @id @default(uuid())
+  type        String   // "income" | "expense" | "tax"
+  category    String
+  amount      Float
+  description String?
+  leadId      String?
+  lead        Lead?    @relation(fields: [leadId], references: [id])
+  managerId   String?
+  manager     Manager? @relation(fields: [managerId], references: [id])
+  isConfirmed Boolean  @default(false)
+  taxDetails  String?   @default("{}") // JSON string for VAT, incomeTax, etc.
+  timestamp   DateTime @default(now())
+}
+
+model Receipt {
+  id               String   @id @default(uuid())
+  leadId           String
+  lead             Lead     @relation(fields: [leadId], references: [id])
+  customerName     String
+  customerPhone    String?
+  products         String?  @default("[]") // JSON string for multiple products snapshot
+  totalAmount      Float
+  paymentMethod    String
+  verificationCode String
+  timestamp        DateTime @default(now())
+}
+
+model AuditLog {
+  id          String   @id @default(uuid())
+  managerId   String?
+  manager     Manager? @relation(fields: [managerId], references: [id])
+  action      String
+  details     String?
+  targetId    String?
+  timestamp   DateTime @default(now())
+}
+
+model Unit {
+  id               String   @id @default(uuid())
+  skuId            String
+  unitId           String   @unique
+  locationStatus   String   @default("showcase")
+  reserveExpiresAt DateTime?
+  reserveClientId  String?
+
+  // Physical details
+  metalWeight      Float?
+  totalWeight      Float?
+  purity           String?
+  metalColor       String?
+  purchaseDate     String?
+  shelfNumber      String?
+  masterName       String?
+  gemologyOrg      String?
+  soldLeadId       String?
+  archiveReason    String?
+  origin           String?
+  certificateNumber String?
+  notes            String?
+
+  // Financials
+  price            Float?   @default(0)
+  costPrice        Float?   @default(0)
+  customsDuty      Float?   @default(0)
+  logisticsCosts   Float?   @default(0)
+  totalCostPrice   Float?   @default(0)
+
+  // JSON fields
+  stones           String?  @default("[]")
+  priceHistory     String?  @default("[]")
+  shopVisibility   String?  @default("{}")
+  locationHistory  String?  @default("[]")
+  serviceHistory   String?  @default("[]")
+
+  createdAt        DateTime @default(now())
+  createdBy        String?  @default("admin")
+  updatedAt        DateTime @updatedAt
+  updatedBy        String?  @default("admin")
+}

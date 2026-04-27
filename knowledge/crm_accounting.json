@@ -1,0 +1,271 @@
+[
+  {
+    "id": "acc-1774472509166",
+    "timestamp": "2026-03-25T21:01:49.166Z",
+    "type": "income",
+    "category": "Продажа изделия",
+    "amount": 780300,
+    "description": "Оплата по лиду #3: Арсен (Astana Night Diamond)",
+    "leadId": "3",
+    "managerId": "m1",
+    "isConfirmed": true
+  },
+  {
+    "id": "acc-1774473089614",
+    "timestamp": "2026-03-25T21:11:29.614Z",
+    "type": "income",
+    "category": "Продажа изделия",
+    "amount": 165499,
+    "description": "Оплата по лиду #4: Дрон ()",
+    "leadId": "4",
+    "managerId": "m1",
+    "isConfirmed": true
+  },
+  {
+    "id": "acc-1774473505358",
+    "timestamp": "2026-03-25T21:18:25.358Z",
+    "type": "income",
+    "category": "Продажа изделия",
+    "amount": 2536616,
+    "description": "Оплата по лиду #1: Олжас Тест (Кольцо Диамонд)",
+    "leadId": "1",
+    "managerId": "m1",
+    "isConfirmed": true
+  },
+  {
+    "type": "expense",
+    "category": "Зарплата",
+    "amount": 800000,
+    "description": "тесмт",
+    "id": "acc-1774480181094",
+    "timestamp": "2026-03-25T23:09:41.094Z",
+    "isConfirmed": true
+  },
+  {
+    "type": "expense",
+    "category": "Прочее",
+    "amount": 809000,
+    "description": "тг",
+    "id": "acc-1774480211345",
+    "timestamp": "2026-03-25T23:10:11.345Z",
+    "isConfirmed": true
+  },
+  {
+    "id": "acc-1774480343138",
+    "timestamp": "2026-03-25T23:12:23.138Z",
+    "type": "income",
+    "category": "Продажа изделия",
+    "amount": 410400,
+    "description": "Оплата по лиду #5: Адель (Кольцо рубин 2 карата)",
+    "leadId": "5",
+    "managerId": "m1",
+    "isConfirmed": true,
+    "taxDetails": {
+      "vat": 43971,
+      "incomeTax": 12312
+    }
+  },
+  {
+    "id": "acc-1774503232667",
+    "timestamp": "2026-03-26T05:33:52.667Z",
+    "type": "income",
+    "category": "Продажа изделия",
+    "amount": 780300,
+    "description": "Оплата по лиду #3: Арсен (Astana Night Diamond)",
+    "leadId": "3",
+    "managerId": "m1",
+    "isConfirmed": true,
+    "taxDetails": {
+      "vat": 83604,
+      "incomeTax": 23409
+    }
+  },
+  {
+    "id": "acc-1774565199078-hyt8o",
+    "timestamp": "2026-03-26T22:46:39.078Z",
+    "type": "income",
+    "category": "Продажа изделия (Интернет-магазин)",
+    "amount": 900000,
+    "description": "Автоматическое зачисление по заказу #ORD-20260326-54913 с сайта. Способ оплаты: undefined, Доставка: undefined",
+    "leadId": "web-ORD-20260326-54913",
+    "managerId": "m1",
+    "isConfirmed": true,
+    "taxDetails": {
+      "vat": 96429,
+      "incomeTax": 27000
+    }
+  },
+  {
+    "id": "acc-1774565224650-gjzjb",
+    "timestamp": "2026-03-26T22:47:04.650Z",
+    "type": "expense",
+    "category": "Возврат (Интернет-магазин)",
+    "amount": -900000,
+    "description": "Возврат по заказу #ORD-20260326-54913 с сайта.",
+    "managerId": "m1",
+    "isConfirmed": true
+  },
+  {
+    "id": "acc-1774568331446-ckzwo",
+    "timestamp": "2026-03-26T23:38:51.446Z",
+    "type": "income",
+    "category": "Продажа изделия (Интернет-магазин)",
+    "amount": 900000,
+    "description": "Автоматическое зачисление по заказу #ORD-20260326-54913 с сайта. Способ оплаты: undefined, Доставка: undefined",
+    "leadId": "web-ORD-20260326-54913",
+    "managerId": "m1",
+    "isConfirmed": true,
+    "taxDetails": {
+      "vat": 96429,
+      "incomeTax": 27000
+    }
+  },
+  {
+    "id": "acc-1774596217998",
+    "timestamp": "2026-03-27T07:23:37.998Z",
+    "type": "income",
+    "category": "Продажа изделия",
+    "amount": 1600000,
+    "description": "Оплата по лиду #2: Олег Иванович (Кольцо для помолвки)",
+    "leadId": "2",
+    "managerId": "m1",
+    "isConfirmed": true,
+    "taxDetails": {
+      "vat": 171429,
+      "incomeTax": 48000
+    }
+  },
+  {
+    "id": "acc-1774665258374",
+    "timestamp": "2026-03-28T02:34:18.374Z",
+    "type": "income",
+    "category": "Продажа изделия",
+    "amount": 467000,
+    "description": "Оплата по лиду #9: Айжан (Astana Night Diamond)",
+    "leadId": "9",
+    "managerId": "m1",
+    "isConfirmed": true,
+    "taxDetails": {
+      "vat": 50036,
+      "incomeTax": 14010
+    }
+  },
+  {
+    "type": "expense",
+    "category": "Аренда",
+    "amount": 50000,
+    "description": "срочно надо было",
+    "id": "acc-1774665311434",
+    "timestamp": "2026-03-28T02:35:11.434Z",
+    "isConfirmed": true
+  },
+  {
+    "id": "acc-1774684176723",
+    "timestamp": "2026-03-28T07:49:36.723Z",
+    "type": "income",
+    "category": "Продажа изделия",
+    "amount": 150000,
+    "description": "Оплата по лиду #13: тест ()",
+    "leadId": "13",
+    "managerId": "m1",
+    "isConfirmed": true,
+    "taxDetails": {
+      "vat": 16071,
+      "incomeTax": 4500
+    }
+  },
+  {
+    "id": "acc-1774691191418",
+    "timestamp": "2026-03-28T09:46:31.418Z",
+    "type": "income",
+    "category": "Продажа изделия",
+    "amount": 1536150,
+    "description": "Оплата по лиду #25: Сет (Диамонд)",
+    "leadId": "25",
+    "managerId": "m1",
+    "isConfirmed": true,
+    "taxDetails": {
+      "vat": 164588,
+      "incomeTax": 46085
+    }
+  },
+  {
+    "type": "expense",
+    "category": "Аренда",
+    "amount": 50505050,
+    "description": "тесмт",
+    "id": "acc-1774691232036",
+    "timestamp": "2026-03-28T09:47:12.036Z",
+    "isConfirmed": true
+  },
+  {
+    "id": "acc-hr-pay-1774743285692",
+    "timestamp": "2026-03-29T00:00:00.000Z",
+    "type": "expense",
+    "category": "ЗП: Аванс",
+    "amount": 250000,
+    "description": "Админ Томиори: advance",
+    "managerId": "m1",
+    "isConfirmed": true
+  },
+  {
+    "id": "acc-hr-pay-1774743326882",
+    "timestamp": "2026-03-29T00:00:00.000Z",
+    "type": "expense",
+    "category": "ЗП: Зарплата",
+    "amount": 250000,
+    "description": "Эльмира Токаева: salary",
+    "managerId": "m1",
+    "isConfirmed": true
+  },
+  {
+    "id": "acc-hr-pay-1774744060192",
+    "timestamp": "2026-03-29T00:00:00.000Z",
+    "type": "expense",
+    "category": "ЗП: Зарплата",
+    "amount": 250000,
+    "description": "Админ Томиори: salary",
+    "managerId": "m1",
+    "isConfirmed": true
+  },
+  {
+    "id": "acc-1774756207580",
+    "timestamp": "2026-03-29T03:50:07.580Z",
+    "type": "income",
+    "category": "Продажа изделия",
+    "amount": 150000,
+    "description": "Оплата по лиду #20: тест (Ювелирное изделие)",
+    "leadId": "20",
+    "managerId": "m1",
+    "isConfirmed": true,
+    "taxDetails": {
+      "vat": 16071,
+      "incomeTax": 4500
+    }
+  },
+  {
+    "id": "acc-1774806363277",
+    "timestamp": "2026-03-29T17:46:03.277Z",
+    "type": "income",
+    "category": "Продажа изделия",
+    "amount": 284000,
+    "description": "Оплата по лиду #7: Олж (Ювелирное изделие)",
+    "leadId": "7",
+    "managerId": "m1",
+    "isConfirmed": true,
+    "taxDetails": {
+      "vat": 30429,
+      "incomeTax": 8520
+    }
+  },
+  {
+    "id": "acc-hr-pay-1774806565788",
+    "timestamp": "2026-03-29T00:00:00.000Z",
+    "type": "expense",
+    "category": "ЗП: Бонус",
+    "amount": 60000,
+    "description": "Админ Томиори: bonus",
+    "managerId": "m1",
+    "isConfirmed": true
+  }
+]

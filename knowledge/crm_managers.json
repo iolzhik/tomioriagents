@@ -1,0 +1,24 @@
+[
+  {
+    "id": "m1",
+    "name": "Админ Томиори",
+    "login": "admin",
+    "password": "Mydollar93!",
+    "role": "admin"
+  },
+  {
+    "id": "m1774455453017",
+    "name": "Эльмира Токаева",
+    "login": "elmira",
+    "password": "201293",
+    "role": "sales",
+    "salaryPlan": {
+      "managerId": "m1774455453017",
+      "type": "fixed_bonus",
+      "fixedSalary": 250000,
+      "bonusPercent": 10,
+      "monthlyPlan": 1500000,
+      "planBonusPercent": 10
+    }
+  }
+]

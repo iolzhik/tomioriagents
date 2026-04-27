@@ -1,0 +1,834 @@
+[
+  {
+    "id": 1,
+    "name": "Олжас Тест",
+    "phone": "+77055952501",
+    "product": "Кольцо Диамонд",
+    "status": "negotiation",
+    "source": "whatsapp",
+    "managerId": "m1",
+    "fulfillmentMethod": "pickup",
+    "createdAt": "2026-03-25T15:50:34.198Z",
+    "paymentMethod": "kaspi",
+    "paymentAmount": 2536616
+  },
+  {
+    "id": 2,
+    "name": "Олег Иванович",
+    "phone": "+77055952501",
+    "product": "Кольцо для помолвки",
+    "status": "closed_lost",
+    "source": "instagram",
+    "instagramAccount": "@eljas",
+    "managerId": "m1",
+    "productPrice": 1600000,
+    "finalPrice": 1600000,
+    "occasion": "8 марта",
+    "fulfillmentMethod": "pickup",
+    "createdAt": "2026-03-25T15:55:17.740Z",
+    "paymentMethod": "kaspi",
+    "paymentAmount": 1600000
+  },
+  {
+    "id": 3,
+    "name": "Арсен",
+    "phone": "87055053131",
+    "product": "Astana Night Diamond",
+    "productId": "p1",
+    "products": [
+      {
+        "productId": "p1",
+        "name": "Astana Night Diamond",
+        "price": 450000
+      },
+      {
+        "productId": "p1",
+        "name": "Astana Night Diamond",
+        "price": 450000
+      }
+    ],
+    "packagingOptions": {
+      "giftWrap": true,
+      "jewelryBox": true,
+      "card": true
+    },
+    "packagingPrice": 18000,
+    "managerId": "m1",
+    "status": "closed_won",
+    "source": "boutique",
+    "productPrice": 900000,
+    "discount": 15,
+    "finalPrice": 780300,
+    "occasion": "Подарок любимому человеку",
+    "additionalInfo": "день рождения",
+    "fulfillmentMethod": "pickup",
+    "deliveryAddress": "",
+    "deliveryDate": "",
+    "createdAt": "2026-03-25T21:00:58.050Z",
+    "discountAmount": 137700,
+    "paymentMethod": "kaspi",
+    "paymentAmount": 780300
+  },
+  {
+    "id": 4,
+    "name": "Дрон",
+    "phone": "56789",
+    "product": "",
+    "productId": "",
+    "products": [],
+    "packagingOptions": {
+      "giftWrap": false,
+      "jewelryBox": false,
+      "card": false
+    },
+    "packagingPrice": 0,
+    "managerId": "m1",
+    "status": "closed_won",
+    "source": "instagram",
+    "productPrice": 0,
+    "discount": 0,
+    "finalPrice": 0,
+    "occasion": "Свадьба",
+    "additionalInfo": "Привет\nче то пока не хочет",
+    "fulfillmentMethod": "pickup",
+    "deliveryAddress": "",
+    "deliveryDate": "",
+    "createdAt": "2026-03-25T21:03:11.958Z",
+    "discountAmount": 0,
+    "paymentMethod": "kaspi",
+    "paymentAmount": 165499
+  },
+  {
+    "id": 5,
+    "name": "Адель",
+    "phone": "87056543676",
+    "product": "Кольцо рубин 2 карата",
+    "productId": "p1774456227621",
+    "products": [
+      {
+        "productId": "p2",
+        "name": "Tomiori Gleam Gold",
+        "price": 280000
+      },
+      {
+        "productId": "p1774456227621",
+        "name": "Кольцо рубин 2 карата",
+        "price": 150000
+      }
+    ],
+    "packagingOptions": {
+      "giftWrap": true,
+      "jewelryBox": false,
+      "card": false
+    },
+    "packagingPrice": 2000,
+    "managerId": "m1",
+    "status": "closed_won",
+    "source": "boutique",
+    "productPrice": 430000,
+    "discount": 5,
+    "finalPrice": 410400,
+    "occasion": "Подарок любимому человеку",
+    "additionalInfo": "подарок",
+    "fulfillmentMethod": "pickup",
+    "deliveryAddress": "",
+    "deliveryDate": "",
+    "createdAt": "2026-03-25T23:12:08.777Z",
+    "paymentMethod": "kaspi",
+    "paymentAmount": 410400
+  },
+  {
+    "id": 6,
+    "name": "Олжас",
+    "phone": "+77055952091",
+    "product": "",
+    "products": [
+      {
+        "productId": "p1",
+        "name": "Astana Night Diamond",
+        "price": 900000,
+        "quantity": 2
+      }
+    ],
+    "packagingOptions": {
+      "giftWrap": false,
+      "jewelryBox": false,
+      "card": false
+    },
+    "packagingPrice": 0,
+    "managerId": "m1",
+    "status": "negotiation",
+    "source": "website",
+    "productPrice": 900000,
+    "discount": 0,
+    "finalPrice": 900000,
+    "additionalInfo": "Заказ из PHP интернет-магазина #ORD-20260326-54913",
+    "fulfillmentMethod": "delivery",
+    "deliveryAddress": "Астан гоя 4",
+    "createdAt": "2026-03-26T21:44:18.753Z"
+  },
+  {
+    "id": 7,
+    "name": "Олж",
+    "phone": "8ц8",
+    "product": "",
+    "products": [
+      {
+        "productId": "p1774456227621",
+        "name": "Кольцо рубин 2 карата",
+        "price": 150000
+      }
+    ],
+    "packagingOptions": {
+      "giftWrap": false,
+      "jewelryBox": false,
+      "card": false
+    },
+    "packagingPrice": 0,
+    "managerId": "m1",
+    "status": "closed_won",
+    "source": "website",
+    "productPrice": 150000,
+    "discount": 0,
+    "finalPrice": 150000,
+    "additionalInfo": "Заказ из интернет-магазина: Кольцо рубин 2 карата x1",
+    "fulfillmentMethod": "delivery",
+    "deliveryAddress": "аааа",
+    "createdAt": "2026-03-26T23:01:50.325Z",
+    "isInstallment": true,
+    "installments": [
+      {
+        "id": "inst-1774806355599",
+        "amount": 134000,
+        "date": "2026-03-29",
+        "method": "kaspi",
+        "note": ""
+      },
+      {
+        "id": "inst-1774806363234",
+        "amount": 150000,
+        "date": "2026-03-29",
+        "method": "kaspi",
+        "note": ""
+      }
+    ],
+    "installmentTotal": 284000,
+    "paymentMethod": "kaspi",
+    "paymentAmount": 284000
+  },
+  {
+    "id": 8,
+    "name": "Олжас",
+    "phone": "+77055952501",
+    "product": "",
+    "products": [
+      {
+        "productId": "p1774455117686",
+        "name": "Диамонд",
+        "price": 1150000,
+        "quantity": 1
+      }
+    ],
+    "packagingOptions": {
+      "giftWrap": false,
+      "jewelryBox": false,
+      "card": false
+    },
+    "packagingPrice": 0,
+    "managerId": "m1",
+    "status": "contacted",
+    "source": "website",
+    "paymentMethod": "kaspi",
+    "productPrice": 1150000,
+    "discount": 0,
+    "finalPrice": 1150000,
+    "additionalInfo": "Заказ из PHP интернет-магазина #ORD-20260326-7a7cf",
+    "fulfillmentMethod": "delivery",
+    "deliveryAddress": "Достык плаза к1",
+    "createdAt": "2026-03-26T23:37:36.541Z"
+  },
+  {
+    "id": 9,
+    "name": "Айжан",
+    "phone": "87055952501",
+    "product": "Astana Night Diamond",
+    "productId": "p1",
+    "products": [
+      {
+        "productId": "p1",
+        "name": "Astana Night Diamond",
+        "price": 450000
+      }
+    ],
+    "packagingOptions": {
+      "giftWrap": true,
+      "jewelryBox": true,
+      "card": false
+    },
+    "packagingPrice": 17000,
+    "managerId": "m1",
+    "status": "closed_won",
+    "source": "boutique",
+    "productPrice": 450000,
+    "discount": 0,
+    "finalPrice": 467000,
+    "occasion": "Свадьба",
+    "additionalInfo": "",
+    "fulfillmentMethod": "pickup",
+    "deliveryAddress": "",
+    "deliveryDate": "",
+    "createdAt": "2026-03-28T02:34:06.625Z",
+    "paymentMethod": "kaspi",
+    "paymentAmount": 467000
+  },
+  {
+    "id": 10,
+    "name": "олж",
+    "phone": "343434324",
+    "product": "Astana Night Diamond",
+    "productId": "p1",
+    "products": [
+      {
+        "productId": "p2",
+        "name": "Tomiori Gleam Gold",
+        "price": 280000
+      },
+      {
+        "productId": "p1",
+        "name": "Astana Night Diamond",
+        "price": 450000
+      }
+    ],
+    "packagingOptions": {
+      "giftWrap": false,
+      "jewelryBox": false,
+      "card": false
+    },
+    "packagingPrice": 0,
+    "managerId": "m1",
+    "status": "new",
+    "source": "boutique",
+    "productPrice": 730000,
+    "discount": 0,
+    "finalPrice": 730000,
+    "occasion": "Сырга салу",
+    "additionalInfo": "",
+    "fulfillmentMethod": "pickup",
+    "deliveryAddress": "",
+    "deliveryDate": "",
+    "createdAt": "2026-03-28T02:39:01.900Z"
+  },
+  {
+    "id": 11,
+    "name": "олж",
+    "phone": "+77055952501",
+    "product": "",
+    "products": [
+      {
+        "productId": "p1774455117686",
+        "name": "Диамонд",
+        "price": 1150000
+      }
+    ],
+    "packagingOptions": {
+      "giftWrap": false,
+      "jewelryBox": false,
+      "card": false
+    },
+    "packagingPrice": 0,
+    "managerId": "m1",
+    "status": "new",
+    "source": "website",
+    "productPrice": 1150000,
+    "discount": 0,
+    "finalPrice": 1150000,
+    "additionalInfo": "Заказ из интернет-магазина: Диамонд x1",
+    "fulfillmentMethod": "delivery",
+    "deliveryAddress": "Астана",
+    "createdAt": "2026-03-28T07:43:53.631Z"
+  },
+  {
+    "id": 12,
+    "name": "тест",
+    "phone": "+77055952501",
+    "product": "",
+    "products": [
+      {
+        "productId": "p1774456227621",
+        "name": "Кольцо рубин 2 карата",
+        "price": 150000
+      }
+    ],
+    "packagingOptions": {
+      "giftWrap": false,
+      "jewelryBox": false,
+      "card": false
+    },
+    "packagingPrice": 0,
+    "managerId": "m1",
+    "status": "contacted",
+    "source": "website",
+    "productPrice": 150000,
+    "discount": 0,
+    "finalPrice": 150000,
+    "additionalInfo": "Заказ из интернет-магазина: Кольцо рубин 2 карата x1",
+    "fulfillmentMethod": "delivery",
+    "deliveryAddress": "Астана",
+    "createdAt": "2026-03-28T07:47:01.079Z"
+  },
+  {
+    "id": 13,
+    "name": "тест",
+    "phone": "+77055952501",
+    "product": "",
+    "products": [
+      {
+        "productId": "p1774456227621",
+        "name": "Кольцо рубин 2 карата",
+        "price": 150000
+      }
+    ],
+    "packagingOptions": {
+      "giftWrap": false,
+      "jewelryBox": false,
+      "card": false
+    },
+    "packagingPrice": 0,
+    "managerId": "m1",
+    "status": "closed_won",
+    "source": "website",
+    "paymentMethod": "card",
+    "productPrice": 150000,
+    "discount": 0,
+    "finalPrice": 150000,
+    "additionalInfo": "Заказ из PHP интернет-магазина #ORD-20260328-17ba1",
+    "fulfillmentMethod": "delivery",
+    "deliveryAddress": "Астана",
+    "createdAt": "2026-03-28T07:47:01.104Z",
+    "paymentAmount": 150000
+  },
+  {
+    "id": 14,
+    "name": "Асель",
+    "phone": "87055952501",
+    "product": "Astana Night Diamond",
+    "productId": "p1",
+    "products": [
+      {
+        "productId": "p1774455117686",
+        "name": "Диамонд",
+        "price": 1150000
+      },
+      {
+        "productId": "p1",
+        "name": "Astana Night Diamond",
+        "price": 450000
+      }
+    ],
+    "packagingOptions": {
+      "giftWrap": true,
+      "jewelryBox": false,
+      "card": false
+    },
+    "packagingPrice": 2000,
+    "managerId": "m1",
+    "status": "new",
+    "source": "boutique",
+    "productPrice": 1600000,
+    "discount": 10,
+    "finalPrice": 1441800,
+    "occasion": "Свадьба",
+    "additionalInfo": "",
+    "fulfillmentMethod": "pickup",
+    "deliveryAddress": "",
+    "deliveryDate": "",
+    "createdAt": "2026-03-28T07:49:16.286Z"
+  },
+  {
+    "id": 15,
+    "name": "тест",
+    "phone": "+77055952501",
+    "product": "",
+    "products": [
+      {
+        "productId": "p1774456227621",
+        "name": "Кольцо рубин 2 карата",
+        "price": 150000
+      }
+    ],
+    "packagingOptions": {
+      "giftWrap": false,
+      "jewelryBox": false,
+      "card": false
+    },
+    "packagingPrice": 0,
+    "managerId": "m1",
+    "status": "closed_won",
+    "source": "boutique",
+    "paymentMethod": "card",
+    "paymentAmount": 150000,
+    "productPrice": 150000,
+    "discount": 0,
+    "finalPrice": 150000,
+    "additionalInfo": "Заказ из PHP интернет-магазина #ORD-20260328-17ba1",
+    "fulfillmentMethod": "delivery",
+    "deliveryAddress": "Астана",
+    "createdAt": "2026-03-28T07:50:16.216Z"
+  },
+  {
+    "id": 16,
+    "name": "рубио",
+    "phone": "77777777777",
+    "product": "",
+    "products": [
+      {
+        "productId": "p1774456227621",
+        "name": "Кольцо рубин 2 карата",
+        "price": 150000
+      }
+    ],
+    "packagingOptions": {
+      "giftWrap": false,
+      "jewelryBox": false,
+      "card": false
+    },
+    "packagingPrice": 0,
+    "managerId": "m1",
+    "status": "new",
+    "source": "website",
+    "productPrice": 150000,
+    "discount": 0,
+    "finalPrice": 150000,
+    "additionalInfo": "Заказ из интернет-магазина: Кольцо рубин 2 карата x1",
+    "fulfillmentMethod": "delivery",
+    "deliveryAddress": "аст",
+    "createdAt": "2026-03-28T07:51:54.683Z"
+  },
+  {
+    "id": 17,
+    "name": "рубио",
+    "phone": "77777777777",
+    "product": "",
+    "products": [
+      {
+        "productId": "p1774456227621",
+        "name": "Кольцо рубин 2 карата",
+        "price": 150000
+      }
+    ],
+    "packagingOptions": {
+      "giftWrap": false,
+      "jewelryBox": false,
+      "card": false
+    },
+    "packagingPrice": 0,
+    "managerId": "m1",
+    "status": "new",
+    "source": "website",
+    "paymentMethod": "card",
+    "productPrice": 150000,
+    "discount": 0,
+    "finalPrice": 150000,
+    "additionalInfo": "Заказ из PHP интернет-магазина #ORD-20260328-aa471",
+    "fulfillmentMethod": "delivery",
+    "deliveryAddress": "аст",
+    "createdAt": "2026-03-28T07:51:54.711Z"
+  },
+  {
+    "id": 18,
+    "name": "рубио",
+    "phone": "77777777777",
+    "source": "website",
+    "status": "new",
+    "products": [
+      {
+        "productId": "p1774456227621",
+        "name": "Кольцо рубин 2 карата",
+        "price": 150000
+      }
+    ],
+    "productPrice": 150000,
+    "finalPrice": 150000,
+    "deliveryAddress": "аст",
+    "fulfillmentMethod": "delivery",
+    "createdAt": "2026-03-28T07:51:54+00:00",
+    "additionalInfo": "PHP SHOP #ORD-20260328-aa471"
+  },
+  {
+    "id": 19,
+    "name": "тест",
+    "phone": "56656565654",
+    "product": "",
+    "products": [
+      {
+        "productId": "p1774456227621",
+        "name": "Кольцо рубин 2 карата",
+        "price": 150000
+      }
+    ],
+    "packagingOptions": {
+      "giftWrap": false,
+      "jewelryBox": false,
+      "card": false
+    },
+    "packagingPrice": 0,
+    "managerId": "m1",
+    "status": "new",
+    "source": "website",
+    "productPrice": 150000,
+    "discount": 0,
+    "finalPrice": 150000,
+    "additionalInfo": "Заказ из интернет-магазина: Кольцо рубин 2 карата x1",
+    "fulfillmentMethod": "delivery",
+    "deliveryAddress": "аа",
+    "createdAt": "2026-03-28T07:59:48.451Z",
+    "isInstallment": true,
+    "installments": [
+      {
+        "id": "inst-1774806330017",
+        "amount": 35000,
+        "date": "2026-03-29",
+        "method": "kaspi",
+        "note": ""
+      }
+    ],
+    "installmentTotal": 35000
+  },
+  {
+    "id": 20,
+    "name": "тест",
+    "phone": "56656565654",
+    "product": "",
+    "products": [
+      {
+        "productId": "p1774456227621",
+        "name": "Кольцо рубин 2 карата",
+        "price": 150000
+      }
+    ],
+    "packagingOptions": {
+      "giftWrap": false,
+      "jewelryBox": false,
+      "card": false
+    },
+    "packagingPrice": 0,
+    "managerId": "m1",
+    "status": "closed_won",
+    "source": "website",
+    "paymentMethod": "kaspi",
+    "productPrice": 150000,
+    "discount": 0,
+    "finalPrice": 150000,
+    "additionalInfo": "Заказ из PHP интернет-магазина #ORD-20260328-717fd",
+    "fulfillmentMethod": "delivery",
+    "deliveryAddress": "аа",
+    "createdAt": "2026-03-28T07:59:48.471Z",
+    "isInstallment": true,
+    "installments": [
+      {
+        "id": "inst-1774756207554",
+        "amount": 150000,
+        "date": "2026-03-29",
+        "method": "kaspi",
+        "note": ""
+      }
+    ],
+    "installmentTotal": 150000,
+    "paymentAmount": 150000
+  },
+  {
+    "id": 21,
+    "name": "тест",
+    "phone": "56656565654",
+    "source": "website",
+    "status": "new",
+    "products": [
+      {
+        "productId": "p1774456227621",
+        "name": "Кольцо рубин 2 карата",
+        "price": 150000
+      }
+    ],
+    "productPrice": 150000,
+    "finalPrice": 150000,
+    "deliveryAddress": "аа",
+    "fulfillmentMethod": "delivery",
+    "createdAt": "2026-03-28T07:59:48+00:00",
+    "additionalInfo": "PHP SHOP #ORD-20260328-717fd"
+  },
+  {
+    "id": 22,
+    "name": "ntcn",
+    "phone": "45453543545",
+    "product": "",
+    "products": [
+      {
+        "productId": "p1774455117686",
+        "name": "Диамонд",
+        "price": 1150000
+      }
+    ],
+    "packagingOptions": {
+      "giftWrap": false,
+      "jewelryBox": false,
+      "card": false
+    },
+    "packagingPrice": 0,
+    "managerId": "m1",
+    "status": "new",
+    "source": "website",
+    "productPrice": 1150000,
+    "discount": 0,
+    "finalPrice": 1150000,
+    "additionalInfo": "Заказ из интернет-магазина: Диамонд x1",
+    "fulfillmentMethod": "delivery",
+    "deliveryAddress": "test",
+    "createdAt": "2026-03-28T08:04:17.720Z"
+  },
+  {
+    "id": 23,
+    "name": "тест",
+    "phone": "544543",
+    "product": "",
+    "products": [
+      {
+        "productId": "p1774565273786",
+        "name": "Тест",
+        "price": 150000
+      }
+    ],
+    "packagingOptions": {
+      "giftWrap": false,
+      "jewelryBox": false,
+      "card": false
+    },
+    "packagingPrice": 0,
+    "managerId": "m1",
+    "status": "new",
+    "source": "website",
+    "productPrice": 150000,
+    "discount": 0,
+    "finalPrice": 150000,
+    "additionalInfo": "Заказ из интернет-магазина: Тест x1",
+    "fulfillmentMethod": "delivery",
+    "deliveryAddress": "тест",
+    "createdAt": "2026-03-28T08:09:27.010Z"
+  },
+  {
+    "id": 24,
+    "name": "Олжас",
+    "phone": "77055952501",
+    "product": "",
+    "products": [
+      {
+        "productId": "p2",
+        "name": "Tomiori Gleam Gold",
+        "price": 280000
+      }
+    ],
+    "packagingOptions": {
+      "giftWrap": false,
+      "jewelryBox": false,
+      "card": false
+    },
+    "packagingPrice": 0,
+    "managerId": "m1",
+    "status": "negotiation",
+    "source": "website",
+    "paymentMethod": "kaspi",
+    "productPrice": 280000,
+    "discount": 0,
+    "finalPrice": 280000,
+    "additionalInfo": "Заказ из интернет-магазина: Tomiori Gleam Gold x1. Оплата: kaspi",
+    "fulfillmentMethod": "pickup",
+    "deliveryAddress": "ТРЦ Керуен, 2 этаж (Самовывоз)",
+    "createdAt": "2026-03-28T09:04:12.904Z"
+  },
+  {
+    "id": 25,
+    "name": "Сет",
+    "phone": "87055952501",
+    "product": "Диамонд",
+    "productId": "p1774455117686",
+    "products": [
+      {
+        "productId": "p1",
+        "name": "Astana Night Diamond",
+        "price": 450000
+      },
+      {
+        "productId": "p1774455117686",
+        "name": "Диамонд",
+        "price": 1150000
+      }
+    ],
+    "packagingOptions": {
+      "giftWrap": true,
+      "jewelryBox": true,
+      "card": false
+    },
+    "packagingPrice": 17000,
+    "managerId": "m1",
+    "status": "closed_won",
+    "source": "boutique",
+    "productPrice": 1600000,
+    "discount": 5,
+    "finalPrice": 1536150,
+    "occasion": "Узату",
+    "additionalInfo": "",
+    "fulfillmentMethod": "pickup",
+    "deliveryAddress": "",
+    "deliveryDate": "",
+    "createdAt": "2026-03-28T09:45:43.759Z",
+    "paymentMethod": "kaspi",
+    "paymentAmount": 1536150
+  },
+  {
+    "id": 26,
+    "name": "тест",
+    "phone": "+77059592501",
+    "product": "",
+    "products": [
+      {
+        "productId": "p1774565273786",
+        "name": "Тест",
+        "price": 150000
+      }
+    ],
+    "packagingOptions": {
+      "giftWrap": false,
+      "jewelryBox": false,
+      "card": false
+    },
+    "packagingPrice": 0,
+    "managerId": "m1",
+    "status": "new",
+    "source": "website",
+    "productPrice": 150000,
+    "discount": 0,
+    "finalPrice": 150000,
+    "additionalInfo": "Заказ из интернет-магазина: Тест x1. Оплата: undefined",
+    "fulfillmentMethod": "pickup",
+    "deliveryAddress": "ТРЦ Керуен, 2 этаж (Самовывоз)",
+    "createdAt": "2026-03-28T09:54:41.764Z"
+  },
+  {
+    "id": 27,
+    "name": "ук343343",
+    "phone": "34",
+    "product": "",
+    "products": [],
+    "packagingOptions": {
+      "giftWrap": false,
+      "jewelryBox": false,
+      "card": false
+    },
+    "packagingPrice": 0,
+    "managerId": "m1",
+    "status": "new",
+    "source": "instagram",
+    "discount": 0,
+    "fulfillmentMethod": "pickup",
+    "createdAt": "2026-03-28T23:28:36.194Z"
+  }
+]

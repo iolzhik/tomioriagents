@@ -1,0 +1,989 @@
+[
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_LEAD",
+    "details": "Создан новый лид: Арсен (Astana Night Diamond)",
+    "targetId": "3",
+    "id": "log-1774472458051-2acim",
+    "timestamp": "2026-03-25T21:00:58.051Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #3 изменен с new на contacted",
+    "targetId": "3",
+    "id": "log-1774472467514-n7d30",
+    "timestamp": "2026-03-25T21:01:07.514Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #3 изменен с contacted на negotiation",
+    "targetId": "3",
+    "id": "log-1774472474705-up29s",
+    "timestamp": "2026-03-25T21:01:14.705Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Обновлен лид #3",
+    "targetId": "3",
+    "id": "log-1774472489239-4ji82",
+    "timestamp": "2026-03-25T21:01:29.239Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #3 изменен с negotiation на closed_won",
+    "targetId": "3",
+    "id": "log-1774472509166-8e7jh",
+    "timestamp": "2026-03-25T21:01:49.166Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "AUTO_ACCOUNTING_ENTRY",
+    "details": "Автоматически создана запись о доходе по лиду #3",
+    "targetId": "acc-1774472509166",
+    "id": "log-1774472509166-cf29c",
+    "timestamp": "2026-03-25T21:01:49.166Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_ACCOUNTING_ENTRY",
+    "details": "Обновлена бухгалтерская запись: acc-1774472509166",
+    "targetId": "acc-1774472509166",
+    "id": "log-1774472523371-qp868",
+    "timestamp": "2026-03-25T21:02:03.371Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_LEAD",
+    "details": "Создан новый лид: Дрон ()",
+    "targetId": "4",
+    "id": "log-1774472591959-n0irp",
+    "timestamp": "2026-03-25T21:03:11.959Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Обновлен лид #4",
+    "targetId": "4",
+    "id": "log-1774472613860-3jdn7",
+    "timestamp": "2026-03-25T21:03:33.860Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #4 изменен с new на contacted",
+    "targetId": "4",
+    "id": "log-1774472617408-2dgm1",
+    "timestamp": "2026-03-25T21:03:37.408Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #4 изменен с contacted на closed_won",
+    "targetId": "4",
+    "id": "log-1774473089613-jsxnt",
+    "timestamp": "2026-03-25T21:11:29.613Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "AUTO_ACCOUNTING_ENTRY",
+    "details": "Автоматически создана запись о доходе по лиду #4",
+    "targetId": "acc-1774473089614",
+    "id": "log-1774473089614-qp33h",
+    "timestamp": "2026-03-25T21:11:29.614Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "GENERATE_RECEIPT",
+    "details": "Сгенерирован чек #REC-1774473096181-ZDOU для лида #3",
+    "targetId": "REC-1774473096181-ZDOU",
+    "id": "log-1774473096181-hipbd",
+    "timestamp": "2026-03-25T21:11:36.181Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #1 изменен с contacted на closed_won",
+    "targetId": "1",
+    "id": "log-1774473505357-fxgm8",
+    "timestamp": "2026-03-25T21:18:25.357Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "AUTO_ACCOUNTING_ENTRY",
+    "details": "Автоматически создана запись о доходе по лиду #1",
+    "targetId": "acc-1774473505358",
+    "id": "log-1774473505359-csit0",
+    "timestamp": "2026-03-25T21:18:25.359Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "GENERATE_RECEIPT",
+    "details": "Сгенерирован чек #REC-1774473510369-ORI9 для лида #1",
+    "targetId": "REC-1774473510369-ORI9",
+    "id": "log-1774473510370-91iij",
+    "timestamp": "2026-03-25T21:18:30.370Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_ACCOUNTING_ENTRY",
+    "details": "Обновлена бухгалтерская запись: acc-1774473505358",
+    "targetId": "acc-1774473505358",
+    "id": "log-1774480161241-xj3yc",
+    "timestamp": "2026-03-25T23:09:21.241Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_ACCOUNTING_ENTRY",
+    "details": "Обновлена бухгалтерская запись: acc-1774473089614",
+    "targetId": "acc-1774473089614",
+    "id": "log-1774480162167-uiqfa",
+    "timestamp": "2026-03-25T23:09:22.167Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_ACCOUNTING_ENTRY",
+    "details": "Создана бухгалтерская запись: Расход 800000 ₸ (Зарплата)",
+    "targetId": "acc-1774480181094",
+    "id": "log-1774480181095-fanws",
+    "timestamp": "2026-03-25T23:09:41.095Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_ACCOUNTING_ENTRY",
+    "details": "Обновлена бухгалтерская запись: acc-1774480181094",
+    "targetId": "acc-1774480181094",
+    "id": "log-1774480183618-k60h2",
+    "timestamp": "2026-03-25T23:09:43.618Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_ACCOUNTING_ENTRY",
+    "details": "Создана бухгалтерская запись: Расход 809000 ₸ (Прочее)",
+    "targetId": "acc-1774480211345",
+    "id": "log-1774480211346-4b3xx",
+    "timestamp": "2026-03-25T23:10:11.346Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_LEAD",
+    "details": "Создан новый лид: Адель (Кольцо рубин 2 карата)",
+    "targetId": "5",
+    "id": "log-1774480328788-8pbz5",
+    "timestamp": "2026-03-25T23:12:08.788Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #5 изменен с new на negotiation",
+    "targetId": "5",
+    "id": "log-1774480334517-85qhd",
+    "timestamp": "2026-03-25T23:12:14.517Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #5 изменен с negotiation на closed_won",
+    "targetId": "5",
+    "id": "log-1774480343137-ti50q",
+    "timestamp": "2026-03-25T23:12:23.137Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "AUTO_ACCOUNTING_ENTRY",
+    "details": "Автоматически создана запись о доходе по лиду #5",
+    "targetId": "acc-1774480343138",
+    "id": "log-1774480343139-qoa4c",
+    "timestamp": "2026-03-25T23:12:23.139Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "GENERATE_RECEIPT",
+    "details": "Сгенерирован чек #REC-1774480349300-JRES для лида #5",
+    "targetId": "REC-1774480349300-JRES",
+    "id": "log-1774480349300-io284",
+    "timestamp": "2026-03-25T23:12:29.300Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_ACCOUNTING_ENTRY",
+    "details": "Обновлена бухгалтерская запись: acc-1774480343138",
+    "targetId": "acc-1774480343138",
+    "id": "log-1774480384986-hoo5x",
+    "timestamp": "2026-03-25T23:13:04.986Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_ACCOUNTING_ENTRY",
+    "details": "Создана бухгалтерская запись: Расход 205000 ₸ (Прочее)",
+    "targetId": "acc-1774492742684",
+    "id": "log-1774492742686-n11e7",
+    "timestamp": "2026-03-26T02:39:02.686Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_ACCOUNTING_ENTRY",
+    "details": "Обновлена бухгалтерская запись: acc-1774480211345",
+    "targetId": "acc-1774480211345",
+    "id": "log-1774492747281-9scuu",
+    "timestamp": "2026-03-26T02:39:07.282Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_ACCOUNTING_ENTRY",
+    "details": "Обновлена бухгалтерская запись: acc-1774492742684",
+    "targetId": "acc-1774492742684",
+    "id": "log-1774492748906-bqofz",
+    "timestamp": "2026-03-26T02:39:08.906Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #3 изменен с closed_won на contacted",
+    "targetId": "3",
+    "id": "log-1774503222335-yttc3",
+    "timestamp": "2026-03-26T05:33:42.335Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #3 изменен с contacted на closed_won",
+    "targetId": "3",
+    "id": "log-1774503232667-6jcs0",
+    "timestamp": "2026-03-26T05:33:52.667Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "AUTO_ACCOUNTING_ENTRY",
+    "details": "Автоматически создана запись о доходе по лиду #3",
+    "targetId": "acc-1774503232667",
+    "id": "log-1774503232668-2iu14",
+    "timestamp": "2026-03-26T05:33:52.668Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_ACCOUNTING_ENTRY",
+    "details": "Обновлена бухгалтерская запись: acc-1774503232667",
+    "targetId": "acc-1774503232667",
+    "id": "log-1774503236465-nlqnl",
+    "timestamp": "2026-03-26T05:33:56.465Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "DELETE_ACCOUNTING_ENTRY",
+    "details": "Удалена бухгалтерская запись: acc-1774492742684",
+    "id": "log-1774505069530-85sue",
+    "timestamp": "2026-03-26T06:04:29.530Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_LEAD",
+    "details": "Создан новый лид: Олжас ()",
+    "targetId": "6",
+    "id": "log-1774561458756-q7b7v",
+    "timestamp": "2026-03-26T21:44:18.756Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Система",
+    "action": "STORE_ORDER_ISSUED",
+    "details": "Магазин: Заказ #ORD-20260326-54913 выдан клиенту. Товар списан со склада.",
+    "targetId": "ORD-20260326-54913",
+    "id": "log-1774565199080-7fsrl",
+    "timestamp": "2026-03-26T22:46:39.080Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_ACCOUNTING_ENTRY",
+    "details": "Обновлена бухгалтерская запись: acc-1774565199078-hyt8o",
+    "targetId": "acc-1774565199078-hyt8o",
+    "id": "log-1774565213801-zq14r",
+    "timestamp": "2026-03-26T22:46:53.801Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Система",
+    "action": "STORE_ORDER_REFUND",
+    "details": "Магазин: Возврат заказа #ORD-20260326-54913. Товар возвращен на склад.",
+    "targetId": "ORD-20260326-54913",
+    "id": "log-1774565224650-gsmne",
+    "timestamp": "2026-03-26T22:47:04.650Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_ACCOUNTING_ENTRY",
+    "details": "Обновлена бухгалтерская запись: acc-1774565224650-gjzjb",
+    "targetId": "acc-1774565224650-gjzjb",
+    "id": "log-1774565237567-kki8q",
+    "timestamp": "2026-03-26T22:47:17.567Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_LEAD",
+    "details": "Создан новый лид: Олж ()",
+    "targetId": "7",
+    "id": "log-1774566110327-jzdd5",
+    "timestamp": "2026-03-26T23:01:50.327Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_LEAD",
+    "details": "Создан новый лид: Олжас ()",
+    "targetId": "8",
+    "id": "log-1774568256544-p4qzr",
+    "timestamp": "2026-03-26T23:37:36.544Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Система",
+    "action": "STORE_ORDER_ISSUED",
+    "details": "Магазин: Заказ #ORD-20260326-54913 выдан клиенту. Товар списан со склада.",
+    "targetId": "ORD-20260326-54913",
+    "id": "log-1774568331447-bcqoe",
+    "timestamp": "2026-03-26T23:38:51.447Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #2 изменен с new на closed_won",
+    "targetId": "2",
+    "id": "log-1774596217997-1p60h",
+    "timestamp": "2026-03-27T07:23:37.997Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "AUTO_ACCOUNTING_ENTRY",
+    "details": "Автоматически создана запись о доходе по лиду #2",
+    "targetId": "acc-1774596217998",
+    "id": "log-1774596217999-uumzm",
+    "timestamp": "2026-03-27T07:23:37.999Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #6 изменен с new на contacted",
+    "targetId": "6",
+    "id": "log-1774600396430-sv41g",
+    "timestamp": "2026-03-27T08:33:16.430Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #6 изменен с contacted на negotiation",
+    "targetId": "6",
+    "id": "log-1774600400169-q28ou",
+    "timestamp": "2026-03-27T08:33:20.169Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_ACCOUNTING_ENTRY",
+    "details": "Обновлена бухгалтерская запись: acc-1774596217998",
+    "targetId": "acc-1774596217998",
+    "id": "log-1774600517740-7q5z1",
+    "timestamp": "2026-03-27T08:35:17.740Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_ACCOUNTING_ENTRY",
+    "details": "Обновлена бухгалтерская запись: acc-1774568331446-ckzwo",
+    "targetId": "acc-1774568331446-ckzwo",
+    "id": "log-1774600521036-m9zli",
+    "timestamp": "2026-03-27T08:35:21.036Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #8 изменен с new на contacted",
+    "targetId": "8",
+    "id": "log-1774665210433-u4utu",
+    "timestamp": "2026-03-28T02:33:30.433Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #1 изменен с closed_won на negotiation",
+    "targetId": "1",
+    "id": "log-1774665213607-6l0vy",
+    "timestamp": "2026-03-28T02:33:33.607Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_LEAD",
+    "details": "Создан новый лид: Айжан (Astana Night Diamond)",
+    "targetId": "9",
+    "id": "log-1774665246627-7bp4m",
+    "timestamp": "2026-03-28T02:34:06.627Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #9 изменен с new на closed_won",
+    "targetId": "9",
+    "id": "log-1774665258374-lyif7",
+    "timestamp": "2026-03-28T02:34:18.374Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "AUTO_ACCOUNTING_ENTRY",
+    "details": "Автоматически создана запись о доходе по лиду #9",
+    "targetId": "acc-1774665258374",
+    "id": "log-1774665258376-nr9m6",
+    "timestamp": "2026-03-28T02:34:18.376Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_ACCOUNTING_ENTRY",
+    "details": "Обновлена бухгалтерская запись: acc-1774665258374",
+    "targetId": "acc-1774665258374",
+    "id": "log-1774665290011-zs8uf",
+    "timestamp": "2026-03-28T02:34:50.011Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_ACCOUNTING_ENTRY",
+    "details": "Создана бухгалтерская запись: Расход 50000 ₸ (Аренда)",
+    "targetId": "acc-1774665311434",
+    "id": "log-1774665311437-0odui",
+    "timestamp": "2026-03-28T02:35:11.437Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_LEAD",
+    "details": "Создан новый лид: олж (Astana Night Diamond)",
+    "targetId": "10",
+    "id": "log-1774665541906-ftvt6",
+    "timestamp": "2026-03-28T02:39:01.906Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_ACCOUNTING_ENTRY",
+    "details": "Создана бухгалтерская запись: Доход 0 ₸ (Прочее)",
+    "targetId": "acc-1774683732942",
+    "id": "log-1774683732944-2to8h",
+    "timestamp": "2026-03-28T07:42:12.945Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_ACCOUNTING_ENTRY",
+    "details": "Обновлена бухгалтерская запись: acc-1774683732942",
+    "targetId": "acc-1774683732942",
+    "id": "log-1774683735973-i3y4o",
+    "timestamp": "2026-03-28T07:42:15.973Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "DELETE_ACCOUNTING_ENTRY",
+    "details": "Удалена бухгалтерская запись: acc-1774683732942",
+    "id": "log-1774683738829-ee47q",
+    "timestamp": "2026-03-28T07:42:18.829Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_LEAD",
+    "details": "Создан новый лид: олж ()",
+    "targetId": "11",
+    "id": "log-1774683833633-yk9m8",
+    "timestamp": "2026-03-28T07:43:53.633Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_LEAD",
+    "details": "Создан новый лид: тест ()",
+    "targetId": "12",
+    "id": "log-1774684021081-nky1m",
+    "timestamp": "2026-03-28T07:47:01.081Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_LEAD",
+    "details": "Создан новый лид: тест ()",
+    "targetId": "13",
+    "id": "log-1774684021105-ch318",
+    "timestamp": "2026-03-28T07:47:01.105Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_LEAD",
+    "details": "Создан новый лид: Асель (Astana Night Diamond)",
+    "targetId": "14",
+    "id": "log-1774684156288-jzohv",
+    "timestamp": "2026-03-28T07:49:16.288Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #12 изменен с new на contacted",
+    "targetId": "12",
+    "id": "log-1774684163064-lyt8l",
+    "timestamp": "2026-03-28T07:49:23.064Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #13 изменен с new на contacted",
+    "targetId": "13",
+    "id": "log-1774684167286-a2yx1",
+    "timestamp": "2026-03-28T07:49:27.286Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #13 изменен с contacted на negotiation",
+    "targetId": "13",
+    "id": "log-1774684168762-tiexk",
+    "timestamp": "2026-03-28T07:49:28.762Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #13 изменен с negotiation на closed_won",
+    "targetId": "13",
+    "id": "log-1774684176723-pa2cp",
+    "timestamp": "2026-03-28T07:49:36.723Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "AUTO_ACCOUNTING_ENTRY",
+    "details": "Автоматически создана запись о доходе по лиду #13",
+    "targetId": "acc-1774684176723",
+    "id": "log-1774684176724-qvw1k",
+    "timestamp": "2026-03-28T07:49:36.724Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_LEAD",
+    "details": "Создан новый лид: тест ()",
+    "targetId": "15",
+    "id": "log-1774684216217-ed8rc",
+    "timestamp": "2026-03-28T07:50:16.217Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "GENERATE_RECEIPT",
+    "details": "Сгенерирован чек #REC-1774684229503-0THK для лида #15",
+    "targetId": "REC-1774684229503-0THK",
+    "id": "log-1774684229504-sxyil",
+    "timestamp": "2026-03-28T07:50:29.504Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_LEAD",
+    "details": "Создан новый лид: рубио ()",
+    "targetId": "16",
+    "id": "log-1774684314684-n6emq",
+    "timestamp": "2026-03-28T07:51:54.684Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_LEAD",
+    "details": "Создан новый лид: рубио ()",
+    "targetId": "17",
+    "id": "log-1774684314711-wjgj8",
+    "timestamp": "2026-03-28T07:51:54.711Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_LEAD",
+    "details": "Создан новый лид: тест ()",
+    "targetId": "19",
+    "id": "log-1774684788453-e3nay",
+    "timestamp": "2026-03-28T07:59:48.453Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_LEAD",
+    "details": "Создан новый лид: тест ()",
+    "targetId": "20",
+    "id": "log-1774684788471-vg4as",
+    "timestamp": "2026-03-28T07:59:48.471Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_LEAD",
+    "details": "Создан новый лид: ntcn ()",
+    "targetId": "22",
+    "id": "log-1774685058052-lqw1v",
+    "timestamp": "2026-03-28T08:04:18.052Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_LEAD",
+    "details": "Создан новый лид: тест ()",
+    "targetId": "23",
+    "id": "log-1774685367108-97o4g",
+    "timestamp": "2026-03-28T08:09:27.108Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_LEAD",
+    "details": "Создан новый лид: Олжас ()",
+    "targetId": "24",
+    "id": "log-1774688653015-7f6d8",
+    "timestamp": "2026-03-28T09:04:13.015Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_LEAD",
+    "details": "Создан новый лид: Сет (Диамонд)",
+    "targetId": "25",
+    "id": "log-1774691143762-x58i9",
+    "timestamp": "2026-03-28T09:45:43.762Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #25 изменен с new на contacted",
+    "targetId": "25",
+    "id": "log-1774691160406-dniu9",
+    "timestamp": "2026-03-28T09:46:00.406Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #25 изменен с contacted на negotiation",
+    "targetId": "25",
+    "id": "log-1774691166927-2mhz1",
+    "timestamp": "2026-03-28T09:46:06.927Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #25 изменен с negotiation на closed_won",
+    "targetId": "25",
+    "id": "log-1774691191417-ld3es",
+    "timestamp": "2026-03-28T09:46:31.417Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Система",
+    "action": "AUTO_ACCOUNTING_ENTRY",
+    "details": "Автоматически создана запись о доходе по лиду #25",
+    "targetId": "acc-1774691191418",
+    "id": "log-1774691191419-vos76",
+    "timestamp": "2026-03-28T09:46:31.419Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_ACCOUNTING_ENTRY",
+    "details": "Обновлена бухгалтерская запись: acc-1774691191418",
+    "targetId": "acc-1774691191418",
+    "id": "log-1774691207205-wlxoh",
+    "timestamp": "2026-03-28T09:46:47.205Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_ACCOUNTING_ENTRY",
+    "details": "Создана бухгалтерская запись: Расход 50505050 ₸ (Аренда)",
+    "targetId": "acc-1774691232036",
+    "id": "log-1774691232037-rd9qy",
+    "timestamp": "2026-03-28T09:47:12.037Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_ACCOUNTING_ENTRY",
+    "details": "Обновлена бухгалтерская запись: acc-1774691232036",
+    "targetId": "acc-1774691232036",
+    "id": "log-1774691235796-a77dx",
+    "timestamp": "2026-03-28T09:47:15.796Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "GENERATE_RECEIPT",
+    "details": "Сгенерирован чек #REC-1774691313714-1T1G для лида #2",
+    "targetId": "REC-1774691313714-1T1G",
+    "id": "log-1774691313718-dell1",
+    "timestamp": "2026-03-28T09:48:33.718Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_ACCOUNTING_ENTRY",
+    "details": "Обновлена бухгалтерская запись: acc-1774684176723",
+    "targetId": "acc-1774684176723",
+    "id": "log-1774691535768-9jlt9",
+    "timestamp": "2026-03-28T09:52:15.768Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_LEAD",
+    "details": "Создан новый лид: тест ()",
+    "targetId": "26",
+    "id": "log-1774691681877-oazam",
+    "timestamp": "2026-03-28T09:54:41.877Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #2 изменен с closed_won на closed_lost",
+    "targetId": "2",
+    "id": "log-1774691884765-1f0x4",
+    "timestamp": "2026-03-28T09:58:04.765Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #2 изменен с closed_lost на closed_won",
+    "targetId": "2",
+    "id": "log-1774691902341-su7oo",
+    "timestamp": "2026-03-28T09:58:22.341Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #2 изменен с closed_won на closed_lost",
+    "targetId": "2",
+    "id": "log-1774691905137-502wt",
+    "timestamp": "2026-03-28T09:58:25.137Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "CREATE_LEAD",
+    "details": "Создан новый лид: ук343343 ()",
+    "targetId": "27",
+    "id": "log-1774740516196-ed4xb",
+    "timestamp": "2026-03-28T23:28:36.196Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Обновлен лид #23",
+    "targetId": "23",
+    "id": "log-1774740528036-gs4n6",
+    "timestamp": "2026-03-28T23:28:48.036Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "SALARY_PAYMENT",
+    "details": "Выплата advance 250,000 ₸ → Админ Томиори",
+    "targetId": "pay-1774743285692",
+    "id": "log-1774743285743-r48qx",
+    "timestamp": "2026-03-29T00:14:45.743Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "SALARY_PAYMENT",
+    "details": "Выплата salary 250,000 ₸ → Эльмира Токаева",
+    "targetId": "pay-1774743326882",
+    "id": "log-1774743326884-29hsa",
+    "timestamp": "2026-03-29T00:15:26.884Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "SAVE_SALARY_PLAN",
+    "details": "Обновлён план зарплаты для Эльмира Токаева",
+    "targetId": "m1774455453017",
+    "id": "log-1774743368994-y0kjt",
+    "timestamp": "2026-03-29T00:16:08.994Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "SALARY_PAYMENT",
+    "details": "Выплата salary 250,000 ₸ → Админ Томиори",
+    "targetId": "pay-1774744060192",
+    "id": "log-1774744060196-j3gzr",
+    "timestamp": "2026-03-29T00:27:40.196Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #20 изменен с new на closed_won",
+    "targetId": "20",
+    "id": "log-1774756207579-3s8hj",
+    "timestamp": "2026-03-29T03:50:07.579Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Система",
+    "action": "AUTO_ACCOUNTING_ENTRY",
+    "details": "Автоматически создана запись о доходе по лиду #20",
+    "targetId": "acc-1774756207580",
+    "id": "log-1774756207581-hi846",
+    "timestamp": "2026-03-29T03:50:07.581Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_ACCOUNTING_ENTRY",
+    "details": "Обновлена бухгалтерская запись: acc-1774756207580",
+    "targetId": "acc-1774756207580",
+    "id": "log-1774787354717-85gun",
+    "timestamp": "2026-03-29T12:29:14.717Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_ACCOUNTING_ENTRY",
+    "details": "Обновлена бухгалтерская запись: acc-1774665311434",
+    "targetId": "acc-1774665311434",
+    "id": "log-1774787357384-vmriw",
+    "timestamp": "2026-03-29T12:29:17.384Z"
+  },
+  {
+    "managerId": "admin",
+    "managerName": "Система",
+    "action": "CREATE_UNITS",
+    "details": "Создано 1 экземпляров для SKU p1774694286798",
+    "id": "log-1774806266014-igbnu",
+    "timestamp": "2026-03-29T17:44:26.014Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Обновлен лид #19",
+    "targetId": "19",
+    "id": "log-1774806330058-o6w7m",
+    "timestamp": "2026-03-29T17:45:30.058Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Обновлен лид #7",
+    "targetId": "7",
+    "id": "log-1774806355642-l0oum",
+    "timestamp": "2026-03-29T17:45:55.642Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_LEAD",
+    "details": "Статус лида #7 изменен с new на closed_won",
+    "targetId": "7",
+    "id": "log-1774806363275-fgf0e",
+    "timestamp": "2026-03-29T17:46:03.275Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "LEAD_CLOSED_NO_UNIT",
+    "details": "Лид #7 закрыт без указания экземпляра ТМЦ — остаток SKU уменьшен на 1 (legacy)",
+    "targetId": "7",
+    "id": "log-1774806363276-qokiy",
+    "timestamp": "2026-03-29T17:46:03.276Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Система",
+    "action": "AUTO_ACCOUNTING_ENTRY",
+    "details": "Автоматически создана запись о доходе по лиду #7",
+    "targetId": "acc-1774806363277",
+    "id": "log-1774806363277-d36m1",
+    "timestamp": "2026-03-29T17:46:03.277Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "UPDATE_ACCOUNTING_ENTRY",
+    "details": "Обновлена бухгалтерская запись: acc-1774806363277",
+    "targetId": "acc-1774806363277",
+    "id": "log-1774806406023-hhe84",
+    "timestamp": "2026-03-29T17:46:46.023Z"
+  },
+  {
+    "managerId": "m1",
+    "managerName": "Админ Томиори",
+    "action": "SALARY_PAYMENT",
+    "details": "Выплата bonus 60,000 ₸ → Админ Томиори",
+    "targetId": "pay-1774806565788",
+    "id": "log-1774806565797-0ln32",
+    "timestamp": "2026-03-29T17:49:25.797Z"
+  }
+]

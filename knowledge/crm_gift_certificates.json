@@ -1,0 +1,31 @@
+[
+  {
+    "certificateId": "cert-1776414422805-68f7",
+    "code": "GIFT-Q8US-3I0I",
+    "amount": 50000,
+    "issuedAt": "2026-04-17T08:27:02.805Z",
+    "issuedBy": "m1",
+    "status": "used",
+    "expiresAt": "2026-04-24"
+  },
+  {
+    "certificateId": "cert-1776421474355-n45d",
+    "code": "GIFT-QSK9-CPQO",
+    "amount": 500000,
+    "issuedAt": "2026-04-17T10:24:34.355Z",
+    "issuedBy": "m1",
+    "status": "used",
+    "expiresAt": "2026-07-18",
+    "usedInLeadId": "17"
+  },
+  {
+    "certificateId": "cert-1776422302782-1q8n",
+    "code": "GIFT-Y4OM-7BDH",
+    "amount": 150000,
+    "issuedAt": "2026-04-17T10:38:22.782Z",
+    "issuedBy": "m1",
+    "status": "used",
+    "expiresAt": "2026-06-13",
+    "usedInLeadId": "8"
+  }
+]

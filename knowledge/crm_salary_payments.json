@@ -1,0 +1,38 @@
+[
+  {
+    "id": "pay-1774743285692",
+    "managerId": "m1",
+    "type": "advance",
+    "amount": 250000,
+    "description": "",
+    "date": "2026-03-29",
+    "createdBy": "m1"
+  },
+  {
+    "id": "pay-1774743326882",
+    "managerId": "m1774455453017",
+    "type": "salary",
+    "amount": 250000,
+    "description": "",
+    "date": "2026-03-29",
+    "createdBy": "m1"
+  },
+  {
+    "id": "pay-1774744060192",
+    "managerId": "m1",
+    "type": "salary",
+    "amount": 250000,
+    "description": "",
+    "date": "2026-03-29",
+    "createdBy": "m1"
+  },
+  {
+    "id": "pay-1774806565788",
+    "managerId": "m1",
+    "type": "bonus",
+    "amount": 60000,
+    "description": "",
+    "date": "2026-03-29",
+    "createdBy": "m1"
+  }
+]

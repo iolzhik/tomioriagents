@@ -1,0 +1,18 @@
+[
+  {
+    "warehouseId": "warehouse-1776413391311-9jmn",
+    "name": "тест",
+    "branchId": "тест",
+    "address": "",
+    "managerId": "m1",
+    "isActive": true
+  },
+  {
+    "warehouseId": "warehouse-1776415545778-4ujk",
+    "name": "Перв склад",
+    "branchId": "branch-1776415530853-4y6m",
+    "address": "",
+    "managerId": "m1",
+    "isActive": true
+  }
+]

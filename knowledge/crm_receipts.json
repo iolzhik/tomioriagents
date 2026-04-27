@@ -1,0 +1,120 @@
+[
+  {
+    "id": "REC-1774473096181-ZDOU",
+    "leadId": 3,
+    "customerName": "Арсен",
+    "customerPhone": "87055053131",
+    "products": [
+      {
+        "productId": "p1",
+        "name": "Astana Night Diamond",
+        "price": 450000
+      },
+      {
+        "productId": "p1",
+        "name": "Astana Night Diamond",
+        "price": 450000
+      }
+    ],
+    "totalAmount": 780300,
+    "paymentMethod": "kaspi",
+    "packagingOptions": {
+      "giftWrap": true,
+      "jewelryBox": true,
+      "card": true
+    },
+    "packagingPrice": 18000,
+    "timestamp": "2026-03-25T21:11:36.181Z",
+    "managerName": "Админ Томиори",
+    "verificationCode": "38a1a47e29aac162"
+  },
+  {
+    "id": "REC-1774473510369-ORI9",
+    "leadId": 1,
+    "customerName": "Олжас Тест",
+    "customerPhone": "+77055952501",
+    "products": [
+      {
+        "productId": "p0",
+        "name": "Кольцо Диамонд",
+        "price": 0
+      }
+    ],
+    "totalAmount": 2536616,
+    "paymentMethod": "kaspi",
+    "timestamp": "2026-03-25T21:18:30.369Z",
+    "managerName": "Админ Томиори",
+    "verificationCode": "a9011a20621ef068"
+  },
+  {
+    "id": "REC-1774480349300-JRES",
+    "leadId": 5,
+    "customerName": "Адель",
+    "customerPhone": "87056543676",
+    "products": [
+      {
+        "productId": "p2",
+        "name": "Tomiori Gleam Gold",
+        "price": 280000
+      },
+      {
+        "productId": "p1774456227621",
+        "name": "Кольцо рубин 2 карата",
+        "price": 150000
+      }
+    ],
+    "totalAmount": 410400,
+    "paymentMethod": "kaspi",
+    "packagingOptions": {
+      "giftWrap": true,
+      "jewelryBox": false,
+      "card": false
+    },
+    "packagingPrice": 2000,
+    "timestamp": "2026-03-25T23:12:29.300Z",
+    "managerName": "Админ Томиори",
+    "verificationCode": "625a5b23227afca0"
+  },
+  {
+    "id": "REC-1774684229503-0THK",
+    "leadId": 15,
+    "customerName": "тест",
+    "customerPhone": "+77055952501",
+    "products": [
+      {
+        "productId": "p1774456227621",
+        "name": "Кольцо рубин 2 карата",
+        "price": 150000
+      }
+    ],
+    "totalAmount": 150000,
+    "paymentMethod": "card",
+    "packagingOptions": {
+      "giftWrap": false,
+      "jewelryBox": false,
+      "card": false
+    },
+    "packagingPrice": 0,
+    "timestamp": "2026-03-28T07:50:29.503Z",
+    "managerName": "Админ Томиори",
+    "verificationCode": "27131554b958de66"
+  },
+  {
+    "id": "REC-1774691313714-1T1G",
+    "leadId": 2,
+    "customerName": "Олег Иванович",
+    "customerPhone": "+77055952501",
+    "products": [
+      {
+        "productId": "p0",
+        "name": "Кольцо для помолвки",
+        "price": 1600000
+      }
+    ],
+    "totalAmount": 1600000,
+    "paymentMethod": "kaspi",
+    "timestamp": "2026-03-28T09:48:33.715Z",
+    "managerName": "Админ Томиори",
+    "verificationCode": "f32c492b0a05e497"
+  }
+]
