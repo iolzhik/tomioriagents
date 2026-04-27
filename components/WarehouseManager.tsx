@@ -33,7 +33,7 @@ interface StockMovement {
 // ─── Constants ───────────────────────────────────────────────────────────────
 
 const CLARITY_OPTIONS = ['IF','VVS1','VVS2','VS1','VS2','SI1','SI2','I1','I2','I3'];
-const PURITY_OPTIONS = ['375','585','750','875','916','925','958','999'];
+const PURITY_OPTIONS = ['417','585','750','875','916','925','958','999'];
 const COLOR_PALETTE = [
   { code: '#F5F5F5', name: 'D (бесцветный)' },
   { code: '#FFFDE7', name: 'E (бесцветный)' },
@@ -636,7 +636,7 @@ function ProductCard({ p, isAdmin, onEdit, onDelete }: {
                     <div>
                       <label style={{ fontSize: '0.7rem', fontWeight: '700', color: '#6B7280', display: 'block', marginBottom: '5px' }}>ПРОБА *</label>
                       <select className="luxury-input" value={newUnit.purity} onChange={e => setNewUnit({ ...newUnit, purity: e.target.value })}>
-                        {['375','585','750','875','925','958','999'].map(pu => <option key={pu} value={pu}>{pu}</option>)}
+                        {['417','585','750','875','925','958','999'].map(pu => <option key={pu} value={pu}>{pu}</option>)}
                       </select>
                     </div>
                     <div>
